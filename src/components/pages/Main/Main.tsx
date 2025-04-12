@@ -15,7 +15,7 @@ const addItem = (item: TItem) => {
 
     return (
       <>
-        <div>
+        <div className="main-container">
           <Form action={addItem} /> 
           <DataList data={items} />
         </div>
