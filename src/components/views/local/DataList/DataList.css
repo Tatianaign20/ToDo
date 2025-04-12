@@ -50,5 +50,10 @@
     .data-list-conteiner {
         width: 360px;
     }
+    
+    .data-list-conteiner-info-buttons {
+        gap: 10px;
+    }
+
 }
 
