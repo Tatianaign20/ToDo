@@ -13,7 +13,15 @@
     padding: 20px;
 }
 
+
+
 .form-control {
     margin-top: 9px;
     margin-bottom: 12px;
+}
+
+@media screen and (max-width: 768px) { 
+    .form-container {
+        width: 360px;
+    }
 }

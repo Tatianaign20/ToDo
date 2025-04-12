@@ -13,6 +13,7 @@
 
 }
 
+
 .data-list-conteiner-info {
     display: flex;
     flex-direction: row;
@@ -44,4 +45,10 @@
     text-decoration: line-through;
     color: #999; /* Серый цвет для зачеркнутого текста */
   }
+
+@media screen and (max-width: 768px) { 
+    .data-list-conteiner {
+        width: 360px;
+    }
+}
 
